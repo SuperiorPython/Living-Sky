@@ -1,31 +1,50 @@
-name: Update sky
+name: Render sky
 
 on:
   schedule:
-    - cron: "0 * * * *" # every hour, on the hour
-  workflow_dispatch: {} # allows manual "Run workflow" from the Actions tab
+    # Runs at the top of every hour
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+# Avoid two runs racing to commit/push at the same time
+concurrency:
+  group: sky-render
+  cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
-  update-sky:
+  render:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
 
-      - run: npm ci
+      - name: Install dependencies
+        run: npm install
 
-      - run: node scripts/generate.js
+      - name: Generate sky
+        run: node scripts/generate.js
 
-      - name: Commit and push if changed
+      - name: Generate solar system view
+        run: node scripts/generate-solar-system.js
+
+      - name: Commit and push
         run: |
-          git config user.name "sky-bot"
-          git config user.email "actions@github.com"
-          git add sky.svg state/rotation.json README.md
-          git diff --staged --quiet || git commit -m "sky update: $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          git config user.name "living-sky-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sky.svg solar-system.svg README.md state/rotation.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update sky $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin ${{ github.ref_name }}
+            git push origin HEAD:${{ github.ref_name }}
+          fi

@@ -9,21 +9,35 @@ polar sky-dome SVG, and pushes it straight back into this README. The commit
 history is a timelapse of the sky over the year — no server, no database, no
 external hosting.
 
+Alongside that, a second view renders the whole solar system from above: the
+Sun at the center, all eight planets at their real current ecliptic longitude,
+Saturn's rings, and each planet's major moons.
+
 <!--SKY:START-->
 ![sky](./sky.svg)
 
-_Currently showing: **Tokyo, Japan** — 2026-07-25 12:30 UTC_
+_Currently showing: waiting for the first render…_
 <!--SKY:END-->
+
+## Solar system view (optional)
+
+<!--SOLAR:START-->
+![solar system](./solar-system.svg)
+
+_Solar system, viewed from above — waiting for the first render…_
+<!--SOLAR:END-->
 
 ## How it works
 
 1. `state/rotation.json` tracks which of the `config/locations.json` entries is "current."
 2. `scripts/generate.js` computes sky positions for that location and time, renders `sky.svg`, and updates the caption above.
-3. `.github/workflows/sky.yml` runs the script every hour and commits the result.
+3. `scripts/generate-solar-system.js` computes real planet positions (ecliptic longitude, log-scaled distance) and renders `solar-system.svg`. Distances are log-scaled so Neptune doesn't crush Mercury into an unreadable cluster near the Sun; moon positions are illustrative, not computed — the names and which planet they orbit are real.
+4. `.github/workflows/sky.yml` runs both scripts every hour and commits the results.
 
 ## Running locally
 
 ```bash
 npm install
 node scripts/generate.js
+node scripts/generate-solar-system.js
 ```
