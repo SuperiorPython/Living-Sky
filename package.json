@@ -1,0 +1,12 @@
+{
+  "name": "living-sky",
+  "version": "1.0.0",
+  "description": "A self-updating night sky, rendered and committed by GitHub Actions every hour.",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.js"
+  },
+  "dependencies": {
+    "astronomy-engine": "^2.1.19"
+  }
+}

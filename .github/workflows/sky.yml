@@ -1,0 +1,31 @@
+name: Update sky
+
+on:
+  schedule:
+    - cron: "0 * * * *" # every hour, on the hour
+  workflow_dispatch: {} # allows manual "Run workflow" from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-sky:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm ci
+
+      - run: node scripts/generate.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "sky-bot"
+          git config user.email "actions@github.com"
+          git add sky.svg state/rotation.json README.md
+          git diff --staged --quiet || git commit -m "sky update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

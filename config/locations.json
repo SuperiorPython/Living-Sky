@@ -1,0 +1,10 @@
+[
+  { "name": "New York, USA", "lat": 40.7128, "lon": -74.0060, "tz": "America/New_York" },
+  { "name": "Tokyo, Japan", "lat": 35.6762, "lon": 139.6503, "tz": "Asia/Tokyo" },
+  { "name": "Cairo, Egypt", "lat": 30.0444, "lon": 31.2357, "tz": "Africa/Cairo" },
+  { "name": "Sydney, Australia", "lat": -33.8688, "lon": 151.2093, "tz": "Australia/Sydney" },
+  { "name": "Reykjavik, Iceland", "lat": 64.1466, "lon": -21.9426, "tz": "Atlantic/Reykjavik" },
+  { "name": "Cape Town, South Africa", "lat": -33.9249, "lon": 18.4241, "tz": "Africa/Johannesburg" },
+  { "name": "Santiago, Chile", "lat": -33.4489, "lon": -70.6693, "tz": "America/Santiago" },
+  { "name": "Mumbai, India", "lat": 19.0760, "lon": 72.8777, "tz": "Asia/Kolkata" }
+]
