@@ -16,7 +16,7 @@ Saturn's rings, and each planet's major moons.
 <!--SKY:START-->
 ![sky](./sky.svg)
 
-_Currently showing: waiting for the first render…_
+_Currently showing: **Cairo, Egypt** — 2026-07-25 12:49 UTC_
 <!--SKY:END-->
 
 ## Solar system view (optional)
@@ -24,7 +24,7 @@ _Currently showing: waiting for the first render…_
 <!--SOLAR:START-->
 ![solar system](./solar-system.svg)
 
-_Solar system, viewed from above — waiting for the first render…_
+_Solar system, viewed from above — **2026-07-25 12:49 UTC**. Planet angles are real (ecliptic longitude); distances are log-scaled so the outer planets stay on the page._
 <!--SOLAR:END-->
 
 ## How it works
