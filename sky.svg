@@ -8,46 +8,46 @@
   <text x="300" y="582" font-size="14" fill="#8A8F98" text-anchor="middle" font-family="sans-serif">S</text>
   <text x="24" y="304" font-size="14" fill="#8A8F98" text-anchor="middle" font-family="sans-serif">W</text>
   
-  <circle cx="392.4" cy="158.7" r="12" fill="#F2B33D" opacity="1"/>
-  <line x1="392.4" y1="144.7" x2="392.4" y2="137.9" stroke="#F2B33D" stroke-width="0.5" opacity="0.50"/>
-  <text x="392.4" y="134.9" font-size="12" fill="#F2B33D" opacity="1" text-anchor="middle" font-family="sans-serif">Sun</text>
+  <circle cx="517.8" cy="195.4" r="12" fill="#F2B33D" opacity="1"/>
+  <line x1="517.8" y1="181.4" x2="517.8" y2="186.8" stroke="#F2B33D" stroke-width="0.5" opacity="0.50"/>
+  <text x="517.8" y="183.8" font-size="12" fill="#F2B33D" opacity="1" text-anchor="middle" font-family="sans-serif">Sun</text>
   
   
-  <g opacity="0.25">
-    <circle cx="40.0" cy="302.5" r="16" fill="#2B2E33"/>
-    <path d="M40.011801122941165,286.4771848261464 A16,16 0 0,0 40.011801122941165,318.4771848261464 A9.039812578672631,16 0 0,0 40.011801122941165,286.4771848261464 Z" fill="#E8E6DE"/>
-    <circle cx="40.0" cy="302.5" r="16" fill="none" stroke="#4A4D52" stroke-width="0.75"/>
+  <g opacity="1">
+    <circle cx="121.8" cy="217.0" r="16" fill="#2B2E33"/>
+    <path d="M121.79347708484846,200.9892130067292 A16,16 0 0,0 121.79347708484846,232.9892130067292 A8.656936022334861,16 0 0,0 121.79347708484846,200.9892130067292 Z" fill="#E8E6DE"/>
+    <circle cx="121.8" cy="217.0" r="16" fill="none" stroke="#4A4D52" stroke-width="0.75"/>
   </g>
-  <line x1="40.0" y1="284.5" x2="40.0" y2="287.7" stroke="#C9CDD3" stroke-width="0.5" opacity="0.13"/>
-  <text x="40.0" y="284.7" font-size="12" fill="#C9CDD3" opacity="0.25" text-anchor="middle" font-family="sans-serif">Moon</text>
   
-  <circle cx="328.3" cy="144.4" r="5" fill="#7F9FD0" opacity="1"/>
+  <text x="121.8" y="193.0" font-size="12" fill="#C9CDD3" opacity="1" text-anchor="middle" font-family="sans-serif">Moon</text>
   
-  <text x="328.3" y="134.4" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Mercury</text>
+  <circle cx="455.6" cy="164.4" r="5" fill="#7F9FD0" opacity="1"/>
   
-  <circle cx="516.0" cy="258.1" r="5" fill="#7F9FD0" opacity="1"/>
+  <text x="455.6" y="154.4" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Mercury</text>
   
-  <text x="516.0" y="248.1" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Venus</text>
+  <circle cx="554.1" cy="355.2" r="5" fill="#7F9FD0" opacity="0.25"/>
   
-  <circle cx="236.9" cy="137.2" r="5" fill="#7F9FD0" opacity="1"/>
+  <text x="554.1" y="345.2" font-size="11" fill="#9FB4DE" opacity="0.25" text-anchor="middle" font-family="sans-serif">Venus</text>
   
-  <text x="236.9" y="127.2" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Mars</text>
+  <circle cx="364.5" cy="138.6" r="5" fill="#7F9FD0" opacity="1"/>
   
-  <circle cx="381.4" cy="152.9" r="5" fill="#7F9FD0" opacity="1"/>
-  <line x1="381.4" y1="145.9" x2="381.4" y2="151.7" stroke="#9FB4DE" stroke-width="0.5" opacity="0.50"/>
-  <text x="381.4" y="148.7" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Jupiter</text>
+  <text x="364.5" y="128.6" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Mars</text>
   
-  <circle cx="40.4" cy="286.3" r="5" fill="#7F9FD0" opacity="0.25"/>
-  <line x1="40.4" y1="279.3" x2="40.4" y2="273.1" stroke="#9FB4DE" stroke-width="0.5" opacity="0.13"/>
-  <text x="40.4" y="270.1" font-size="11" fill="#9FB4DE" opacity="0.25" text-anchor="middle" font-family="sans-serif">Saturn</text>
+  <circle cx="507.0" cy="185.5" r="5" fill="#7F9FD0" opacity="1"/>
+  <line x1="507.0" y1="178.5" x2="507.0" y2="172.1" stroke="#9FB4DE" stroke-width="0.5" opacity="0.50"/>
+  <text x="507.0" y="169.1" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Jupiter</text>
   
-  <circle cx="170.8" cy="154.5" r="5" fill="#7F9FD0" opacity="1"/>
+  <circle cx="149.5" cy="218.4" r="5" fill="#7F9FD0" opacity="1"/>
   
-  <text x="170.8" y="144.5" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Uranus</text>
+  <text x="149.5" y="208.4" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Saturn</text>
   
-  <circle cx="41.1" cy="323.4" r="5" fill="#7F9FD0" opacity="0.25"/>
+  <circle cx="298.2" cy="142.8" r="5" fill="#7F9FD0" opacity="1"/>
   
-  <text x="41.1" y="313.4" font-size="11" fill="#9FB4DE" opacity="0.25" text-anchor="middle" font-family="sans-serif">Neptune</text>
-  <text x="300" y="600" font-size="13" fill="#6C7280" text-anchor="middle" font-family="sans-serif">Cape Town, South Africa — 2026-08-03 08:55 UTC</text>
+  <text x="298.2" y="132.8" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Uranus</text>
+  
+  <circle cx="121.9" cy="240.5" r="5" fill="#7F9FD0" opacity="1"/>
+  
+  <text x="121.9" y="230.5" font-size="11" fill="#9FB4DE" opacity="1" text-anchor="middle" font-family="sans-serif">Neptune</text>
+  <text x="300" y="600" font-size="13" fill="#6C7280" text-anchor="middle" font-family="sans-serif">Santiago, Chile — 2026-08-03 12:09 UTC</text>
   <text x="300" y="620" font-size="11" fill="#4A4E58" text-anchor="middle" font-family="sans-serif">zenith at center · horizon at edge · dim = below horizon</text>
 </svg>
