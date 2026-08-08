@@ -16,7 +16,7 @@ Saturn's rings, and each planet's major moons.
 <!--SKY:START-->
 ![sky](./sky.svg)
 
-_Currently showing: **Sydney, Australia** — 2026-08-08 16:16 UTC_
+_Currently showing: **Reykjavik, Iceland** — 2026-08-08 17:18 UTC_
 <!--SKY:END-->
 
 ## Solar system view (optional)
@@ -24,7 +24,7 @@ _Currently showing: **Sydney, Australia** — 2026-08-08 16:16 UTC_
 <!--SOLAR:START-->
 ![solar system](./solar-system.svg)
 
-_Solar system, viewed from above — **2026-08-08 16:16 UTC**. Planet angles are real (ecliptic longitude); distances are log-scaled so the outer planets stay on the page._
+_Solar system, viewed from above — **2026-08-08 17:18 UTC**. Planet angles are real (ecliptic longitude); distances are log-scaled so the outer planets stay on the page._
 <!--SOLAR:END-->
 
 ## How it works
