@@ -19,21 +19,21 @@
 <circle class="orbit" cx="340" cy="330" r="260.0"/>
 <circle cx="340" cy="330" r="16" fill="#F2B33D"/>
 <text class="lbl" x="340" y="362" text-anchor="middle">Sun</text>
-<circle cx="372.2" cy="291.7" r="3" fill="#9C9C9C"/>
-<text class="lbl" x="372.2" y="280.7" text-anchor="middle">Mercury</text>
-<circle cx="251.9" cy="331.8" r="5" fill="#E8C39E"/>
-<text class="lbl" x="251.9" y="318.8" text-anchor="middle">Venus</text>
-<circle cx="267.8" cy="255.9" r="5" fill="#4F83CC"/>
-<circle class="moonorbit" cx="267.8" cy="255.9" r="11"/>
+<circle cx="372.4" cy="291.9" r="3" fill="#9C9C9C"/>
+<text class="lbl" x="372.4" y="280.9" text-anchor="middle">Mercury</text>
+<circle cx="251.9" cy="331.7" r="5" fill="#E8C39E"/>
+<text class="lbl" x="251.9" y="318.7" text-anchor="middle">Venus</text>
+<circle cx="267.8" cy="255.8" r="5" fill="#4F83CC"/>
+<circle class="moonorbit" cx="267.8" cy="255.8" r="11"/>
 <circle cx="274.9" cy="247.4" r="1.4" fill="#C9CDD3"/>
-<text class="moonlbl" x="267.8" y="278.9" text-anchor="middle">Moon</text>
-<text class="lbl" x="267.8" y="242.9" text-anchor="middle">Earth</text>
-<circle cx="442.5" cy="265.1" r="4" fill="#C1440E"/>
-<circle class="moonorbit" cx="442.5" cy="265.1" r="10"/>
+<text class="moonlbl" x="267.8" y="278.8" text-anchor="middle">Moon</text>
+<text class="lbl" x="267.8" y="242.8" text-anchor="middle">Earth</text>
+<circle cx="442.5" cy="265.2" r="4" fill="#C1440E"/>
+<circle class="moonorbit" cx="442.5" cy="265.2" r="10"/>
 <circle cx="448.9" cy="257.5" r="1.4" fill="#C9CDD3"/>
-<circle cx="436.0" cy="272.8" r="1.4" fill="#C9CDD3"/>
-<text class="moonlbl" x="442.5" y="287.1" text-anchor="middle">Phobos, Deimos</text>
-<text class="lbl" x="442.5" y="253.1" text-anchor="middle">Mars</text>
+<circle cx="436.1" cy="272.8" r="1.4" fill="#C9CDD3"/>
+<text class="moonlbl" x="442.5" y="287.2" text-anchor="middle">Phobos, Deimos</text>
+<text class="lbl" x="442.5" y="253.2" text-anchor="middle">Mars</text>
 <circle cx="483.3" cy="438.8" r="11" fill="#D8AE82"/>
 <circle class="moonorbit" cx="483.3" cy="438.8" r="17"/>
 <circle cx="494.2" cy="425.8" r="1.4" fill="#C9CDD3"/>
@@ -45,7 +45,7 @@
 <ellipse cx="373.6" cy="126.0" rx="21.0" ry="6.0" fill="none" stroke="#C9A96E" stroke-width="1.5" opacity="0.8"/>
 <circle cx="373.6" cy="126.0" r="10" fill="#E0C16C"/>
 <circle class="moonorbit" cx="373.6" cy="126.0" r="16"/>
-<circle cx="383.8" cy="113.7" r="1.4" fill="#C9CDD3"/>
+<circle cx="383.9" cy="113.7" r="1.4" fill="#C9CDD3"/>
 <circle cx="385.8" cy="136.3" r="1.4" fill="#C9CDD3"/>
 <circle cx="363.3" cy="138.2" r="1.4" fill="#C9CDD3"/>
 <circle cx="361.3" cy="115.7" r="1.4" fill="#C9CDD3"/>
@@ -63,6 +63,6 @@
 <text class="moonlbl" x="352.3" y="95.3" text-anchor="middle">Triton</text>
 <text class="lbl" x="352.3" y="55.3" text-anchor="middle">Neptune</text>
 
-<text x="340" y="608" font-size="13" fill="#6C7280" text-anchor="middle" font-family="sans-serif">Solar system — 2026-08-08 06:29 UTC</text>
+<text x="340" y="608" font-size="13" fill="#6C7280" text-anchor="middle" font-family="sans-serif">Solar system — 2026-08-08 07:38 UTC</text>
 <text x="340" y="626" font-size="11" fill="#4A4E58" text-anchor="middle" font-family="sans-serif">real ecliptic longitude · distance log-scaled · moon positions illustrative</text>
 </svg>
